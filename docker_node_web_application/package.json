@@ -1,8 +1,10 @@
 {
-    "name" : "docker_node_web_application",
-    "version" : "1.0.0",
-    "scripts" : {
-        "start" : "node app.js"
+    "name": "docker_node_web_application",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node app.js"
     },
-    "dependencies": {}
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }
