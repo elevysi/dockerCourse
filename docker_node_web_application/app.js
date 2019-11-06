@@ -15,7 +15,7 @@ app.use(cookieParser());
 
 //#use for middleware; api middleware
 app.use("/api", apiRouter);
-const port = process.env.port || 8081;
+const port = process.env.port || 8080;
 
 app.get("/", (req, res, next) => {
     res
